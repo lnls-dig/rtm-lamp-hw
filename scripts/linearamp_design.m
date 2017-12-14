@@ -22,7 +22,7 @@ Pmax_amp = 3;           % Maximum power dissipation on amplifier [W]
 fb_CL_bw = 10e3;        % Current feedback loop reference tracking bandwidth [Hz]
 fb_delay = 1/580e3;     % Current feedback loop delay [s]
 
-tavg_P = -1;            % Integration time of average power [s]; if tavg_P <= 0, assume one period of periodic signal
+tavg_P_req = -1;        % Integration time of average power [s]; if tavg_P <= 0, assume one period of periodic signal
 
 plot_limits = true;     % If true, plot the corresponding operation limits
 
@@ -72,14 +72,15 @@ for j=1:length(wvfs)
     P_all = [P_total P_amp P_r P_l];
     
     % Calculate average power
-    if tavg_P <= 0
+    if tavg_P_req <= 0
         navg_P = npts_period;
     else
-        navg_P = round(tavg_P/ts);
+        navg_P = round(tavg_P_req/ts);
         if navg_P == 0
             navg_P = 1;
         end
     end
+    tavg_P = navg_P*ts;
     avg_P = filter(ones(navg_P, 1)/navg_P, 1, P_all);
     avg_P_1cycle = avg_P(end, :);
     
@@ -101,27 +102,12 @@ for j=1:length(wvfs)
     end
     
     % Plot results
-    figure;
+    %figure;
+    figure('units', 'normalized', 'outerposition', [0 0 1 1], 'name', sprintf('Waveform #%d', j))
     
-    % Voltages
+    % Currents
     subplot(221);
     ax(1) = gca;
-    if plot_limits
-        plot([0 t_crop(end) 0 0 t_crop(end)], [repmat(Vs, 2, 1); NaN; repmat(-Vs, 2, 1)], 'LineWidth', 2);
-        hold on
-    end
-    plot(t_crop, v_all);
-    if plot_limits
-        legend('V_{max}', 'v', 'v_R', 'v_L')
-    else
-        legend('v', 'v_R', 'v_L')
-    end
-    xlabel('Time [s]');
-    ylabel('Voltage [V]');
-    grid on
-    
-    subplot(222);
-    ax(2) = gca;
     if plot_limits
         plot([0 t_crop(end) 0 0 t_crop(end)], [repmat(I_FS, 2, 1); NaN; repmat(-I_FS, 2, 1)], 'LineWidth', 2);
         
@@ -129,29 +115,49 @@ for j=1:length(wvfs)
     end
     plot(t_crop, i_all);
     if plot_limits
-        legend('I_{max}', 'i', 'i_{setpoint}')
+        legend(sprintf('I_{max} = %0.2g A', I_FS), 'i', 'i_{setpoint}')
     else
         legend('i_{setpoint}', 'i')
     end
     xlabel('Time [s]');
     ylabel('Current [A]');
+    title('Currents');
     grid on
     
-    % Currents
+    % Voltages
+    subplot(222);
+    ax(2) = gca;
+    if plot_limits
+        plot([0 t_crop(end) 0 0 t_crop(end)], [repmat(Vs, 2, 1); NaN; repmat(-Vs, 2, 1)], 'LineWidth', 2);
+        hold on
+    end
+    plot(t_crop, v_all);
+    if plot_limits
+        legend(sprintf('V_{max} = %0.2g V', Vs), 'v', 'v_R', 'v_L')
+    else
+        legend('v', 'v_R', 'v_L')
+    end
+    xlabel('Time [s]');
+    ylabel('Voltage [V]');
+    title('Voltages');
+    grid on
+
+    % Slew rate
     subplot(223);
     ax(3) = gca;
     if plot_limits
-        plot([0 t_crop(end) 0 0 t_crop(end)], [repmat(dvdt_max, 2, 1); NaN; repmat(-dvdt_max, 2, 1)], 'LineWidth', 2);
+        plot([0 t_crop(end) 0 0 t_crop(end)], [repmat(dvdt_max/1e6, 2, 1); NaN; repmat(-dvdt_max/1e6, 2, 1)], 'LineWidth', 2);
         hold on
     end
-    plot(t_crop, dvdt);
+    plot(t_crop, dvdt/1e6);
     if plot_limits
-        legend('dv/dt_{max}', 'dv/dt')
+        legend(sprintf('dv/dt_{max} = %0.2g \\muV/s', dvdt_max/1e6), 'dv/dt')
     else
         legend('dv/dt')
     end
     xlabel('Time [s]');
-    ylabel('Slew rate [V/s]');
+    ylabel('Slew rate [\muV/s]');
+    title('Slew rate');
     grid on
     
     % Power
@@ -169,13 +175,28 @@ for j=1:length(wvfs)
         plot(t_crop, avg_P, '--');
     end
     if plot_limits
-        legend('P_{max}', 'P_{amp_{max}}', 'P_{total}', 'P_{amp}', 'P_R', 'P_L', 'P_{total_{avg}}', 'P_{amp_{avg}}', 'P_{R_{avg}}', 'P_{L_{avg}}')
+        legend(sprintf('P_{max} = %0.2g W', Pmax), sprintf('P_{amp_{max}} = %0.2g W', Pmax_amp), 'P_{total}', 'P_{amp}', 'P_R', 'P_L', sprintf('P_{total_{avg}} (\\tau = %0.2g s)', tavg_P), sprintf('P_{amp_{avg}} (\\tau = %0.2g s)', tavg_P), sprintf('P_{R_{avg}} (\\tau = %0.2g s)', tavg_P), sprintf('P_{L_{avg}} (\\tau = %0.2g s)', tavg_P))
     else
-        legend('P_{total}', 'P_{amp}', 'P_R', 'P_L')
+        legend('P_{total}', 'P_{amp}', 'P_R', 'P_L')        
     end
     xlabel('Time [s]');
-    ylabel('Power [VA]');
+    ylabel('Power [VA] or [W]');
+    title('Power');
     grid on
     
     linkaxes(ax, 'x')
+    
+    % Plot parameters text
+    axes('Position',[0 0.375 0.09 0.25], 'Visible', 'off');
+    text(.1, 0.5, ...
+        {'Load'; ...
+        '- - - - - - - - - - - - - - -'; ...
+        sprintf('R = %0.2g ohm', R); ...
+        sprintf('L = %0.2g mH', L/1e-3); ...
+        ''; ...
+        'Current Feedback'; ...
+        '- - - - - - - - - - - - - - -'; ...
+        sprintf('BW = %0.3g kHz', fb_CL_bw/1e3); ...
+        sprintf('delay = %0.3g \\mus', fb_delay*1e6)} ...
+        );
 end
