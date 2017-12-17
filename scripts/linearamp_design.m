@@ -36,18 +36,18 @@ wvfs{j} = genwvf('trapz', 100, I_FS, 0, 10, 1000, 3e-3); j=j+1;
 % Trapezoidal wave: frequency: 1 kHz; amplitude: 0.8% full scale; offset: 0; ramp time (from -amplitude to amplitude): 3 us
 wvfs{j} = genwvf('trapz', 1000, 0.008*I_FS, 0, 10, 10000, 3e-6); j=j+1;
 
+% Transfer functions
+tf_i_v = tf(1, [L R]);
+tf_vl_v = tf([L 0], [L R]);
+tf_vr_v = tf(R, [L R]);
+tf_v_isetpoint = tf([L R], [1/(2*pi*fb_CL_bw) 1]);
+
 for j=1:length(wvfs)
     i_setpoint = wvfs{j}.y;
     t = wvfs{j}.t;
     npts_period = wvfs{j}.period;
     ts = t(2)-t(1);
     nperiods = length(t)/npts_period;
-    
-    % Transfer functions
-    tf_i_v = tf(1, [L R]);
-    tf_vl_v = tf([L 0], [L R]);
-    tf_vr_v = tf(R, [L R]);
-    tf_v_isetpoint = tf([L R], [1/(2*pi*fb_CL_bw) 1]);
     
     % Simulate signals
     v = lsim(tf_v_isetpoint, i_setpoint, t);
@@ -98,22 +98,20 @@ for j=1:length(wvfs)
     end
     
     % Plot results
-    %figure;
-    figure('units', 'normalized', 'outerposition', [0 0 1 1], 'name', sprintf('Waveform #%d', j))
+    figure('units', 'normalized', 'outerposition', [0 0 1 1], 'name', sprintf('Waveform #%d', j));
     
     % Currents
     subplot(221);
     ax(1) = gca;
     if plot_limits
         plot([0 t_crop(end) 0 0 t_crop(end)], [repmat(I_FS, 2, 1); NaN; repmat(-I_FS, 2, 1)], 'LineWidth', 2);
-        
-        hold on
+        hold all
     end
     plot(t_crop, i_all);
     if plot_limits
         legend(sprintf('I_{max} = %0.2g A', I_FS), 'i', 'i_{setpoint}')
     else
-        legend('i_{setpoint}', 'i')
+        legend('i_{setpoint}', 'i');
     end
     xlabel('Time [s]');
     ylabel('Current [A]');
@@ -125,7 +123,7 @@ for j=1:length(wvfs)
     ax(2) = gca;
     if plot_limits
         plot([0 t_crop(end) 0 0 t_crop(end)], [repmat(Vs, 2, 1); NaN; repmat(-Vs, 2, 1)], 'LineWidth', 2);
-        hold on
+        hold all
     end
     plot(t_crop, v_all);
     if plot_limits
@@ -137,13 +135,13 @@ for j=1:length(wvfs)
     ylabel('Voltage [V]');
     title('Voltages');
     grid on
-
+    
     % Slew rate
     subplot(223);
     ax(3) = gca;
     if plot_limits
         plot([0 t_crop(end) 0 0 t_crop(end)], [repmat(dvdt_max/1e6, 2, 1); NaN; repmat(-dvdt_max/1e6, 2, 1)], 'LineWidth', 2);
-        hold on
+        hold all
     end
     plot(t_crop, dvdt/1e6);
     if plot_limits
@@ -164,16 +162,16 @@ for j=1:length(wvfs)
         clr = lines;
         clr = [clr([1 2], :); clr([1:4 1:4], :)];
         set(gca, 'ColorOrder', clr);
-        hold on
+        hold all
     end
     plot(t_crop, P_all);
     if plot_limits
         plot(t_crop, avg_P, '--');
     end
     if plot_limits
-        legend(sprintf('P_{max} = %0.2g W', Pmax), sprintf('P_{amp_{max}} = %0.2g W', Pmax_amp), 'P_{total}', 'P_{amp}', 'P_R', 'P_L', sprintf('P_{total_{avg}} (\\tau = %0.2g s)', tavg_P), sprintf('P_{amp_{avg}} (\\tau = %0.2g s)', tavg_P), sprintf('P_{R_{avg}} (\\tau = %0.2g s)', tavg_P), sprintf('P_{L_{avg}} (\\tau = %0.2g s)', tavg_P))
+        legend(sprintf('P_{max} = %0.2g W', Pmax), sprintf('P_{amp_{max}} = %0.2g W', Pmax_amp), 'P_{total}', 'P_{amp}', 'P_R', 'P_L', 'P_{total_{avg}}', 'P_{amp_{avg}}', 'P_{R_{avg}}', 'P_{L_{avg}}');
     else
-        legend('P_{total}', 'P_{amp}', 'P_R', 'P_L')        
+        legend('P_{total}', 'P_{amp}', 'P_R', 'P_L');
     end
     xlabel('Time [s]');
     ylabel('Power [VA] or [W]');
@@ -195,6 +193,10 @@ for j=1:length(wvfs)
         'Current Feedback'; ...
         '- - - - - - - - - - - - - - -'; ...
         sprintf('BW = %0.3g kHz', fb_CL_bw/1e3); ...
-        sprintf('delay = %0.3g \\mus', fb_delay*1e6)} ...
+        sprintf('delay = %0.3g \\mus', fb_delay*1e6); ...
+        ''; ...
+        'Power Average'; ...
+        '- - - - - - - - - - - - - - -'; ...
+        sprintf('Integration time = %0.2g ms', tavg_P*1e3)} ...
         );
 end
