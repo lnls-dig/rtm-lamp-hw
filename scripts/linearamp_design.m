@@ -1,7 +1,5 @@
 % Analysis script to aid on the design of linear power amplifiers with
 % inductive loads.
-%
-% Tested on Matlab R2016b.
 
 % Copyright (C) 2017 CNPEM
 % Licensed under GNU General Public License v3.0 (GPL)
@@ -49,16 +47,14 @@ for j=1:length(wvfs)
     tf_i_v = tf(1, [L R]);
     tf_vl_v = tf([L 0], [L R]);
     tf_vr_v = tf(R, [L R]);
-    tf_fb_openloop = tf_i_v*tf(1,1,'iodelay',fb_delay);
-    C = pidtune(tf_fb_openloop, 'PI', 2*pi*fb_CL_bw);
-    tf_v_isetpoint = feedback(C, tf_fb_openloop);
+    tf_v_isetpoint = tf([L R], [1/(2*pi*fb_CL_bw) 1]);
     
     % Simulate signals
     v = lsim(tf_v_isetpoint, i_setpoint, t);
     dvdt = lsim(tf_v_isetpoint*tf([1 0],[ts/2 1]), i_setpoint, t);
-    i = lsim(tf_i_v, v, t);
-    v_l = lsim(tf_vl_v, v, t);
-    v_r = lsim(tf_vr_v, v, t);
+    i = lsim(tf_v_isetpoint*tf_i_v, i_setpoint, t);
+    v_l = lsim(tf_v_isetpoint*tf_vl_v, i_setpoint, t);
+    v_r = lsim(tf_v_isetpoint*tf_vr_v, i_setpoint, t);
     
     % Calculate power consuption/dissipation in different elements
     P_l = v_l.*i;
@@ -184,7 +180,9 @@ for j=1:length(wvfs)
     title('Power');
     grid on
     
-    linkaxes(ax, 'x')
+    try
+        linkaxes(ax, 'x')
+    end
     
     % Plot parameters text
     axes('Position',[0 0.375 0.09 0.25], 'Visible', 'off');
