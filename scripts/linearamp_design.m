@@ -14,7 +14,6 @@ dvdt_max = 1.4e6;       % Maximum amplifier slew rate [V/s]
 Vs = 3.6;               % Amplifier supply voltage [V]
 I_FS = 1;               % Fullscale current [A]
 
-Pmax = 3.6;             % Maximum power consumption [VA]
 Pmax_amp = 3;           % Maximum power dissipation on amplifier [W]
 
 fb_CL_bw = 10e3;        % Current feedback loop reference tracking bandwidth [Hz]
@@ -41,6 +40,17 @@ tf_i_v = tf(1, [L R]);
 tf_vl_v = tf([L 0], [L R]);
 tf_vr_v = tf(R, [L R]);
 tf_v_isetpoint = tf([L R], [1/(2*pi*fb_CL_bw) 1]);
+
+% Minimum load resistance
+Pmax = Vs*I_FS;
+if Pmax_amp < Pmax/2
+    Rmin = Vs^2/4/Pmax_amp;
+else
+    Rmin = (Pmax-Pmax_amp)/I_FS^2;
+end
+if R < Rmin
+    warning(sprintf('When operating at full-scale current, the power dissipated on the amplifier will exceed ''Pmax_amp'' specification. R, currently at %0.2g ohm, should be greater than %0.2g ohm.', R, Rmin));
+end
 
 for j=1:length(wvfs)
     i_setpoint = wvfs{j}.y;
