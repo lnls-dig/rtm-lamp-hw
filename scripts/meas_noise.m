@@ -6,29 +6,30 @@
 %
 % Author(s): Daniel Tavares (LNLS/DIG) - daniel.tavares@lnls.br
 
-Pmax = 1/8;                     % Maximum power dissipation on shunt resistor [W]
-req_th_noise = 300e-12;         % Required beam deflection noise spectral density [rad/sqrt(Hz)]
+Pmax = 1/8;                 % Maximum power dissipation on shunt resistor [W]
+req_th_noise = 300e-12;     % Required beam deflection noise spectral density [rad/sqrt(Hz)]
 
-I_FS = 1;                       % Load current full-scale [A]
-th_FS = 30e-6;                 % Beam deflection full-scale [rad]
+I_FS = 1;                   % Load current full-scale [A]
+th_FS = 30e-6;              % Beam deflection full-scale [rad]
 
-Rs = 15e-3;                     % Shunt resistance for current measurement [ohm]
+Rs = 15e-3;                 % Shunt resistance for current measurement [ohm]
 
 % ADC data (based on LTC2320-16 datasheet)
-SNR_adc = 80;                   % SNR [dBFS]
-fs = 1.2e6;                     % sampling rate
-FS_adc = 2;                     % Full-scale voltage [V]
+SNR_adc = 80;               % SNR [dBFS]
+fs = 1.2e6;                 % Sampling rate [Hz]
+FS_adc = 2;                 % Full-scale voltage [V]
 
 % In-amp data (based on AD8429 datasheet)
-G = [1; ...                     % Gain
-     5; ...
-     10; ...
-     20; ...
-     50; ...
-     100];
-eni_inamp = 1e-9;               % Input voltage noise spectral density [V/sqrt(Hz)]
-eno_inamp = 45e-9;              % Output voltage noise spectral density [V/sqrt(Hz)]
-in_inamp = 2e-12;               % Input current noise spectral density [A/sqrt(Hz)]
+G = [ ...                   % Gain
+    1; ...                  
+    5; ...
+    10; ...
+    20; ...
+    50; ...
+    100];
+eni_inamp = 1e-9;           % Input voltage noise spectral density [V/sqrt(Hz)]
+eno_inamp = 45e-9;          % Output voltage noise spectral density [V/sqrt(Hz)]
+in_inamp = 2e-12;           % Input current noise spectral density [A/sqrt(Hz)]
 
 % Calculate range slection resistor (Rg)
 Rg = 6e3./(G-1);
@@ -61,7 +62,7 @@ for i=1:length(FSp)
     if FSp(i) > 1
         warning(sprintf('Current full-scale exceeds ADC full-scale by %0.3g%% for G = %d', FSp(i)*100, G(i)));
     end
-end 
+end
 
 % Plot results
 figure;
