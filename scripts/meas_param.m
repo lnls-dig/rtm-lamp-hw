@@ -34,12 +34,13 @@ final_snr = db(FS_adc./total_noise);
 
 plot(Rs,Gain, '-o');
 xlabel('Shunt resistance');
-ylabel('InAmp (AD8429) gain')
+ylabel('InAmp (AD8429) gain');
 
-yyaxis right
+yyaxis right;
 plot(Rs,final_snr,'-o');
-ylabel('Full-bandwidth SNR at ADC')
+ylabel('Full-bandwidth SNR at ADC');
 grid on;
+legend('InAmp Gain','Final SNR');
 
-title('Resistance vs Gain and SNR for full-scale signal at ADC')
+title('Resistance vs Gain and SNR for full-scale signal at ADC');
 
