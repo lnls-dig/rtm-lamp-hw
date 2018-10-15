@@ -51,8 +51,8 @@ i_p_f = deflection_response(f', Rt, L, Vmargin, I);
 
 figure()
 loglog(f,i_p_f'*100);
-legend(sprintf('Standard corrector, L = %0.2g mH; I = %0.2g A; R=%0.2g Ohm', L(1)*1e3,I(1),R(1)), ...
-       sprintf('45º corrector, L = %0.2g mH; I = %0.2g A; R = %0.2g Ohm', L(2)*1e3,I(2),R(2)));
+legend(sprintf('Standard corrector, L = %0.2g mH; I = %0.2g A; R = %0.2g Ohm', L(1)*1e3,I(1),R(1)), ...
+       sprintf('45degree corrector, L = %0.2g mH; I = %0.2g A; R = %0.2g Ohm', L(2)*1e3,I(2),R(2)));
 line([f_max f_max],ylim);
 
 xlabel('Frequency [Hz]')
@@ -76,16 +76,21 @@ figure()
 cl_df = subplot(2,2,1);
 plot(Cb_length,i_p_cl*100);
 legend('Standard magnet', '45^{\circ} magnet');
-title(sprintf('Max deflection dependence vs cable length (resistivity = %0.2g)', ...
-              Cb_res));
+title(sprintf('Max deflection at f = %0.2g kHz vs cable length (resistivity = %0.2g mOhm/m)', ...
+              f_max/1e3,Cb_res*1e3));
 xlabel('Cable length [m]');
-ylabel(sprintf('Max deflection at f = %0.2g [% of Full scale]',f_max));
+ylabel(sprintf('Max deflection [%% of Full scale]',f_max));
+grid on;
+
 
 cl_sr = subplot(2,2,3)
 plot(Cb_length,didt_min_cl);
 ylabel('Maximum current slew rate [A/s]')
 xlabel('Cable length [m]')
 legend('Standard magnet', '45^{\circ} magnet');
+title(sprintf('Max current slew rate vs cable length (resistivity = %0.2g mOhm/m)', ...
+              Cb_res*1e3));
+grid on;
 
 %% Plotting effect of increased Vs on response
 Vs_v = [3:0.1:5]';
@@ -98,19 +103,24 @@ Vmargin_v = Vswing_v - Vomax;
 didt_min_v = Vmargin_v ./ L;
 i_p_v = deflection_response(f_max, Rt, L, Vmargin_v, I);
 
+%Plotting
 vs_df = subplot(2,2,2);
 plot(Vs_v,i_p_v*100);
 legend('Standard magnet', '45^{\circ} magnet');
-title(sprintf('Max deflection dependence on supply voltage', ...
-              Cb_res));
+title(sprintf('Max deflection at f = %0.2g kHz vs supply voltage', ...
+              f_max/1e3));
 xlabel('OpAmp supply voltage [V]');
-ylabel(sprintf('Max deflection at f = %0.2g [% of Full scale]',f_max));
+ylabel(sprintf('Max deflection [%% of Full scale]',f_max));
+grid on;
 
 vs_sr = subplot(2,2,4)
 plot(Vs_v,didt_min_v);
 ylabel('Maximum current slew rate [A/s]')
 xlabel('Supply voltage [V]')
 legend('Standard magnet', '45^{\circ} magnet');
+title(sprintf('Max current slew rate vs supply voltage', ...
+              f_max/1e3));
+grid on;
 
 linkaxes([cl_df, cl_sr],'x');
 linkaxes([vs_df, vs_sr],'x')
