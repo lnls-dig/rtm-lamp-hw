@@ -13,7 +13,7 @@ max_gain = 10e3;
 SNR_target = 80;
 
 %Set ADC noise (will dominate noise)
-SNR_adc = 81;
+SNR_adc = 82;
 fs = 1.2e6;
 FS_adc = 2/sqrt(2);
 ADC_noisefloor = FS_adc*10^(-SNR_adc/20)/sqrt(fs/2);
