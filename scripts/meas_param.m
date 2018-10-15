@@ -18,7 +18,8 @@ fs = 1.2e6;
 FS_adc = 2/sqrt(2);
 ADC_noisefloor = FS_adc*10^(-SNR_adc/20)/sqrt(fs/2);
 
-Gain = FS_adc./(Rs*I_FS);
+Gain = FS_adc*sqrt(2)./(Rs*I_FS); % max peak voltage equal to ADC
+                                  % full scale
 
 Rs(Gain > max_gain) = NaN;
 Gain(Gain > max_gain) = NaN;
