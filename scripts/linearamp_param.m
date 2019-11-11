@@ -1,9 +1,9 @@
 % Linear amplifier parameter setting
  
 % System parameters
-L_c = 3.32e-3 % Magnet inductance [H]
-I_c = 1.00   % Fullscale DC curent [A]
-R_c = 0.082 % Magnet resistance [Ohm]
+L_c = 3.e-3 % Magnet inductance [H]
+I_c = 1.0   % Fullscale DC curent [A]
+R_c = 0.142 % Magnet resistance [Ohm]
 
 % Data for 45º magnets
 L_rot = 6.64e-3  % Magnet inductance [H]
@@ -16,8 +16,8 @@ I = [I_c I_rot];
 R = [R_c R_rot];
 
 %Cable  data
-Cb_length = 50    % Maximum cable length [m]
-Cb_res = 7.98e-3  % Cable resistivity [Ohm/m]
+Cb_length = 40    % Maximum cable length [m]
+Cb_res = 3.08e-3  % Cable resistivity [Ohm/m]
 
 % Desired actuator performance
 f_max = 10e3 % Maximum actuator frequency to analyse [Hz]
