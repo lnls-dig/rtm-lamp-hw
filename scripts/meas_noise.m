@@ -7,26 +7,23 @@
 % Author(s): Daniel Tavares (LNLS/DIG) - daniel.tavares@lnls.br
 
 Pmax = 1/8;                 % Maximum power dissipation on shunt resistor [W]
-req_th_noise = 300e-12;     % Required beam deflection noise spectral density [rad/sqrt(Hz)]
+req_th_noise = 30e-12;      % Required beam deflection noise spectral density [rad/sqrt(Hz)]
 
 I_FS = 1;                   % Load current full-scale [A]
 th_FS = 30e-6;              % Beam deflection full-scale [rad]
+FSp = 0.15;                 % maximum current/ADC full-scale ratio
 
-Rs = 15e-3;                 % Shunt resistance for current measurement [ohm]
+% Shunt resistance for current measurement [ohm]
+Rs = [1e-3:1e-3:9e-3 10e-3:10e-3:90e-3 100e-3:100e-3:300e-3]';
 
 % ADC data (based on LTC2320-16 datasheet)
 SNR_adc = 80;               % SNR [dBFS]
 fs = 1.2e6;                 % Sampling rate [Hz]
 FS_adc = 2;                 % Full-scale voltage [V]
 
+G = FS_adc/I_FS*FSp./Rs;
+
 % In-amp data (based on AD8429 datasheet)
-G = [ ...                   % Gain
-    1; ...                  
-    5; ...
-    10; ...
-    20; ...
-    50; ...
-    100];
 eni_inamp = 1e-9;           % Input voltage noise spectral density [V/sqrt(Hz)]
 eno_inamp = 45e-9;          % Output voltage noise spectral density [V/sqrt(Hz)]
 in_inamp = 2e-12;           % Input current noise spectral density [A/sqrt(Hz)]
@@ -41,12 +38,22 @@ Rg(G <= 1) = 0;
 k_therm = 1.6568e-20;
 
 % In-amp input resistance
-R_input = Rs;
+Rinput = Rs;
 
-% In-amp noise
-noise_rti = sqrt((eno_inamp./G).^2 + eni_inamp.^2 + (R_input*in_inamp).^2 + k_therm*R_input + k_therm*Rg);
-noise = G.*noise_rti;
-imeas_noise = 1./Rs./G.*noise;
+% In-amp noise power components (referred to input) [V^2]
+P_eno_inamp = (eno_inamp./G).^2;
+P_eni_inamp = eni_inamp.^2;
+P_in_inamp = (Rinput*in_inamp).^2;
+P_therm_Rinput = k_therm*Rinput;
+P_therm_Rg = k_therm.*Rg;
+P_rti = [P_eno_inamp repmat([P_eni_inamp], size(G,1), 1) P_in_inamp P_therm_Rinput P_therm_Rg];
+
+% In-amp noise power components (referred to output) [V^2]
+P_rto = P_rti.*G.^2;
+noise_rto_total = sqrt(sum(P_rto,2));
+noise = sqrt(P_rto)./FS_adc;
+
+imeas_noise = 1./Rs./G.*noise_rto_total;
 FS_noise = th_FS./I_FS.*imeas_noise;
 
 % ADC noise floor
@@ -55,8 +62,9 @@ imeas_noisefloor = 1./Rs./G.*noisefloor;
 FS_noisefloor = th_FS./I_FS*imeas_noisefloor;
 
 % Ratios
-Pp = Rs*I_FS.^2./Pmax;
-FSp = G*Rs*I_FS./FS_adc;
+Pdiss = Rs*I_FS.^2;
+
+noise_total = sqrt(noise_rto_total.^2 + noisefloor.^2)/FS_adc;
 
 for i=1:length(FSp)
     if FSp(i) > 1
@@ -64,9 +72,9 @@ for i=1:length(FSp)
     end
 end
 
-% Plot results
+%Plot results
 figure;
-loglog(G, [repmat(noisefloor, size(G)) noise]/1e-9, '-o');
+loglog(G, [repmat(noisefloor, size(G)) noise_rto_total]/1e-9, '-o');
 xlabel('Gain');
 ylabel('nV/\surdHz');
 title('Voltage noise');
@@ -90,3 +98,36 @@ ylabel('prad/\surdHz');
 title('Beam deflection noise');
 grid on;
 legend('Specification', 'ADC noise floor', 'In-amp noise');
+
+figure;
+semilogx(G, 20*log10([repmat([FSp noisefloor/FS_adc], size(G)) noise noise_total]));
+xlabel('Gain');
+ylabel('Noise density [dBFS/Hz]');
+title('Noise density');
+grid on;
+legend('Full-scale [dB]', 'ADC', 'e_{no_{inamp}}', 'e_{ni_{inamp}}', 'i_{ni_{inamp}}', 'therm_{R_{input}}', 'therm_{R_G}', 'Total noise');
+
+ax(1) = gca;
+ax(2) = axes('Position', [0.13 0.12 0.775 0]);
+
+semilogx(G, zeros(size(G)), 'k');
+
+ticks = get(ax(1), 'XTick');
+set(ax(1), 'Position', [0.13 0.24 0.775 0.685])
+set(ax(2), 'XTick', logspace(-10,10,21));
+set(ax(2), 'XTickLabel', cellfun(@num2str, num2cell(FS_adc/I_FS*FSp./logspace(-10,10,21)), 'UniformOutput', 0));
+xlabel('Shunt resistance [ohm]');
+
+linkaxes(ax, 'x');
+
+
+figure;
+h = plotyy(G, 20*log10(FS_adc*FSp./[noise_rto_total repmat(noisefloor,size(G,1),1) sqrt(noise_rto_total.^2+repmat(noisefloor,size(G,1),1).^2)]), G, Pdiss);
+h(1).XScale = 'log';
+h(1).YScale = 'log';
+h(2).XScale = 'log';
+h(2).YScale = 'linear';
+xlabel('Gain');
+ylabel('SNR [dB/Hz]');
+grid on;
+legend('In-amp', 'ADC')
