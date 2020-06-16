@@ -309,6 +309,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FICAWVHL
 
+[Document17]
+DocumentPath=rtm-top.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=D731DCDA-6150-40F7-A0EA-20746F93F41E
 Description=rtm-lamp external power
