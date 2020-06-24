@@ -311,20 +311,40 @@ DocumentUniqueId=FICAWVHL
 
 [ProjectVariant1]
 UniqueID=D731DCDA-6150-40F7-A0EA-20746F93F41E
-Description=rtm-lamp external power
+Description=EXT PWR AFC3.1
 AllowFabrication=0
 ParameterCount=0
 VariationCount=1
-Variation1=Designator=F2|UniqueId=\RWEKMQWN\FKERIEFP|Kind=1|AlternatePart= 
+Variation1=Designator=R1|UniqueId=\DFAWZYXO\WSNYLSEI|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
 UniqueID=9EB19E17-6295-47DD-B9B2-854BB8FF548F
-Description=rtm-lamp internal power
+Description=INT PWR AFC3.1
+AllowFabrication=0
+ParameterCount=0
+VariationCount=2
+Variation1=Designator=R1|UniqueId=\DFAWZYXO\WSNYLSEI|Kind=1|AlternatePart= 
+Variation2=Designator=C?|UniqueId=\RWEKMQWN\EQCPLYEI|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
+[ProjectVariant3]
+UniqueID=EBDAB99C-249F-4CB5-ABE5-5402827BC942
+Description=EXT PWR AFC4
 AllowFabrication=0
 ParameterCount=0
 VariationCount=1
-Variation1=Designator=F3|UniqueId=\RWEKMQWN\MRFWVPNJ|Kind=1|AlternatePart= 
+Variation1=Designator=R2|UniqueId=\DFAWZYXO\EJDZSPGN|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
+[ProjectVariant4]
+UniqueID=BB3CDF7E-62D2-4268-BEAC-A1BC12EB68B3
+Description=INT PWR AFC4
+AllowFabrication=0
+ParameterCount=0
+VariationCount=2
+Variation1=Designator=R2|UniqueId=\DFAWZYXO\EJDZSPGN|Kind=1|AlternatePart= 
+Variation2=Designator=C?|UniqueId=\RWEKMQWN\EQCPLYEI|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
@@ -446,7 +466,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=OneNote for Windows 10
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
