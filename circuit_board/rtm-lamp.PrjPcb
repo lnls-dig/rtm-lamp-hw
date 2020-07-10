@@ -324,10 +324,11 @@ UniqueID=9EB19E17-6295-47DD-B9B2-854BB8FF548F
 Description=INT PWR AFC3.1
 AllowFabrication=0
 ParameterCount=0
-VariationCount=3
+VariationCount=4
 Variation1=Designator=R1|UniqueId=\DFAWZYXO\WSNYLSEI|Kind=1|AlternatePart= 
 Variation2=Designator=C54|UniqueId=\RWEKMQWN\EQCPLYEI|Kind=1|AlternatePart= 
 Variation3=Designator=F3|UniqueId=\RWEKMQWN\KRFGPVJD|Kind=1|AlternatePart= 
+Variation4=Designator=J6|UniqueId=\DFAWZYXO\QCWIBWWI|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant3]
@@ -345,10 +346,11 @@ UniqueID=BB3CDF7E-62D2-4268-BEAC-A1BC12EB68B3
 Description=INT PWR AFC4
 AllowFabrication=0
 ParameterCount=0
-VariationCount=3
+VariationCount=4
 Variation1=Designator=R2|UniqueId=\DFAWZYXO\EJDZSPGN|Kind=1|AlternatePart= 
 Variation2=Designator=C54|UniqueId=\RWEKMQWN\EQCPLYEI|Kind=1|AlternatePart= 
 Variation3=Designator=F3|UniqueId=\RWEKMQWN\KRFGPVJD|Kind=1|AlternatePart= 
+Variation4=Designator=J6|UniqueId=\DFAWZYXO\QCWIBWWI|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
