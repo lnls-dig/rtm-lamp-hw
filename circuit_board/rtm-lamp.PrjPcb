@@ -39,7 +39,7 @@ PrefsRevisionGUID=
 
 [Document1]
 DocumentPath=rtm-top.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -56,7 +56,7 @@ DocumentUniqueId=AQUVNVJF
 
 [Document2]
 DocumentPath=connectors.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -90,7 +90,7 @@ DocumentUniqueId=
 
 [Document4]
 DocumentPath=management-i2c.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -124,7 +124,7 @@ DocumentUniqueId=
 
 [Document6]
 DocumentPath=power.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -192,7 +192,7 @@ DocumentUniqueId=
 
 [Document10]
 DocumentPath=power-amplifiers.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -260,7 +260,7 @@ DocumentUniqueId=
 
 [Document14]
 DocumentPath=adc.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -308,6 +308,40 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FICAWVHL
+
+[Document17]
+DocumentPath=clock-distribution.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LYJCLRJT
+
+[Document18]
+DocumentPath=clock.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueID=D731DCDA-6150-40F7-A0EA-20746F93F41E
