@@ -55,7 +55,7 @@ GenerateClassCluster=0
 DocumentUniqueId=AQUVNVJF
 
 [Document2]
-DocumentPath=connectors.SchDoc
+DocumentPath=rtm-connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -343,6 +343,40 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document19]
+DocumentPath=output-connectors.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KMZWDUZG
+
+[Document20]
+DocumentPath=output-connectors.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=D731DCDA-6150-40F7-A0EA-20746F93F41E
 Description=EXT PWR AFC3.1
@@ -362,7 +396,7 @@ VariationCount=4
 Variation1=Designator=R1|UniqueId=\DFAWZYXO\WSNYLSEI|Kind=1|AlternatePart= 
 Variation2=Designator=C54|UniqueId=\RWEKMQWN\EQCPLYEI|Kind=1|AlternatePart= 
 Variation3=Designator=F3|UniqueId=\RWEKMQWN\KRFGPVJD|Kind=1|AlternatePart= 
-Variation4=Designator=J6|UniqueId=\DFAWZYXO\QCWIBWWI|Kind=1|AlternatePart= 
+Variation4=Designator=J6|UniqueId=\RWEKMQWN\ZCMRVKSB|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant3]
@@ -384,7 +418,7 @@ VariationCount=4
 Variation1=Designator=R2|UniqueId=\DFAWZYXO\EJDZSPGN|Kind=1|AlternatePart= 
 Variation2=Designator=C54|UniqueId=\RWEKMQWN\EQCPLYEI|Kind=1|AlternatePart= 
 Variation3=Designator=F3|UniqueId=\RWEKMQWN\KRFGPVJD|Kind=1|AlternatePart= 
-Variation4=Designator=J6|UniqueId=\DFAWZYXO\QCWIBWWI|Kind=1|AlternatePart= 
+Variation4=Designator=J6|UniqueId=\RWEKMQWN\ZCMRVKSB|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
