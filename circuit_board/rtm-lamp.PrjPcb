@@ -65,7 +65,7 @@ AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
+ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -382,10 +382,11 @@ UniqueID=D731DCDA-6150-40F7-A0EA-20746F93F41E
 Description=EXT PWR AFC3.1
 AllowFabrication=0
 ParameterCount=0
-VariationCount=3
+VariationCount=4
 Variation1=Designator=R1|UniqueId=\DFAWZYXO\BGGIOAPT|Kind=1|AlternatePart= 
 Variation2=Designator=F2|UniqueId=\RWEKMQWN\GCPNCFIT|Kind=1|AlternatePart= 
 Variation3=Designator=L27|UniqueId=\DFAWZYXO\WFKUPSKE|Kind=1|AlternatePart= 
+Variation4=Designator=OSC1|UniqueId=\XXGOLPRC\VYUXXOFV|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -393,12 +394,13 @@ UniqueID=9EB19E17-6295-47DD-B9B2-854BB8FF548F
 Description=INT PWR AFC3.1
 AllowFabrication=0
 ParameterCount=0
-VariationCount=5
+VariationCount=6
 Variation1=Designator=R1|UniqueId=\DFAWZYXO\BGGIOAPT|Kind=1|AlternatePart= 
 Variation2=Designator=C54|UniqueId=\RWEKMQWN\EQCPLYEI|Kind=1|AlternatePart= 
 Variation3=Designator=F3|UniqueId=\RWEKMQWN\KRFGPVJD|Kind=1|AlternatePart= 
 Variation4=Designator=J6|UniqueId=\RWEKMQWN\ZCMRVKSB|Kind=1|AlternatePart= 
 Variation5=Designator=L27|UniqueId=\DFAWZYXO\WFKUPSKE|Kind=1|AlternatePart= 
+Variation6=Designator=OSC1|UniqueId=\XXGOLPRC\VYUXXOFV|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant3]
@@ -406,10 +408,11 @@ UniqueID=EBDAB99C-249F-4CB5-ABE5-5402827BC942
 Description=EXT PWR AFC4
 AllowFabrication=0
 ParameterCount=0
-VariationCount=3
+VariationCount=4
 Variation1=Designator=R2|UniqueId=\DFAWZYXO\BDCZVIRH|Kind=1|AlternatePart= 
 Variation2=Designator=F2|UniqueId=\RWEKMQWN\GCPNCFIT|Kind=1|AlternatePart= 
 Variation3=Designator=L28|UniqueId=\DFAWZYXO\MRBLHVXD|Kind=1|AlternatePart= 
+Variation4=Designator=OSC1|UniqueId=\XXGOLPRC\VYUXXOFV|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant4]
@@ -417,12 +420,13 @@ UniqueID=BB3CDF7E-62D2-4268-BEAC-A1BC12EB68B3
 Description=INT PWR AFC4
 AllowFabrication=0
 ParameterCount=0
-VariationCount=5
+VariationCount=6
 Variation1=Designator=R2|UniqueId=\DFAWZYXO\BDCZVIRH|Kind=1|AlternatePart= 
 Variation2=Designator=C54|UniqueId=\RWEKMQWN\EQCPLYEI|Kind=1|AlternatePart= 
 Variation3=Designator=F3|UniqueId=\RWEKMQWN\KRFGPVJD|Kind=1|AlternatePart= 
 Variation4=Designator=J6|UniqueId=\RWEKMQWN\ZCMRVKSB|Kind=1|AlternatePart= 
 Variation5=Designator=L28|UniqueId=\DFAWZYXO\MRBLHVXD|Kind=1|AlternatePart= 
+Variation6=Designator=OSC1|UniqueId=\XXGOLPRC\VYUXXOFV|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
