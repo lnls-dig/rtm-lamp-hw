@@ -72,23 +72,6 @@ GenerateClassCluster=0
 DocumentUniqueId=ITIGZJZR
 
 [Document3]
-DocumentPath=connectors.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document4]
 DocumentPath=management-i2c.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BYZKAOFF
 
-[Document5]
+[Document4]
 DocumentPath=management-i2c.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document6]
+[Document5]
 DocumentPath=power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VOGHFMTY
 
-[Document7]
+[Document6]
 DocumentPath=rtm-lamp.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document7]
 DocumentPath=rtm-lamp.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WBNOJWCK
 
-[Document9]
+[Document8]
 DocumentPath=rtm-lamp.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document9]
 DocumentPath=power-amplifiers.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TBLPIBQK
 
-[Document11]
+[Document10]
 DocumentPath=power-amplifiers.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -224,7 +207,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
+[Document11]
 DocumentPath=shift-registers.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -241,7 +224,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BTKRNTBE
 
-[Document13]
+[Document12]
 DocumentPath=shift-registers.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -258,7 +241,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document14]
+[Document13]
 DocumentPath=adc.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -275,7 +258,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WXBTEHHE
 
-[Document15]
+[Document14]
 DocumentPath=adc.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -292,7 +275,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document16]
+[Document15]
 DocumentPath=..\..\altium-library\PcbLib\Fuses_LNLS.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -309,7 +292,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FICAWVHL
 
-[Document17]
+[Document16]
 DocumentPath=clock-distribution.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -326,8 +309,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LYJCLRJT
 
+[Document17]
+DocumentPath=output-connectors.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=8
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KMZWDUZG
+
 [Document18]
-DocumentPath=clock.Harness
+DocumentPath=output-connectors.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -344,7 +344,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document19]
-DocumentPath=output-connectors.SchDoc
+DocumentPath=clock-distribution.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -358,10 +358,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=KMZWDUZG
+DocumentUniqueId=
 
 [Document20]
-DocumentPath=output-connectors.Harness
+DocumentPath=rtm-connectors.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -382,9 +382,10 @@ UniqueID=D731DCDA-6150-40F7-A0EA-20746F93F41E
 Description=EXT PWR AFC3.1
 AllowFabrication=0
 ParameterCount=0
-VariationCount=2
-Variation1=Designator=R1|UniqueId=\DFAWZYXO\WSNYLSEI|Kind=1|AlternatePart= 
+VariationCount=3
+Variation1=Designator=R1|UniqueId=\DFAWZYXO\BGGIOAPT|Kind=1|AlternatePart= 
 Variation2=Designator=F2|UniqueId=\RWEKMQWN\GCPNCFIT|Kind=1|AlternatePart= 
+Variation3=Designator=L27|UniqueId=\DFAWZYXO\WFKUPSKE|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -392,11 +393,12 @@ UniqueID=9EB19E17-6295-47DD-B9B2-854BB8FF548F
 Description=INT PWR AFC3.1
 AllowFabrication=0
 ParameterCount=0
-VariationCount=4
-Variation1=Designator=R1|UniqueId=\DFAWZYXO\WSNYLSEI|Kind=1|AlternatePart= 
+VariationCount=5
+Variation1=Designator=R1|UniqueId=\DFAWZYXO\BGGIOAPT|Kind=1|AlternatePart= 
 Variation2=Designator=C54|UniqueId=\RWEKMQWN\EQCPLYEI|Kind=1|AlternatePart= 
 Variation3=Designator=F3|UniqueId=\RWEKMQWN\KRFGPVJD|Kind=1|AlternatePart= 
 Variation4=Designator=J6|UniqueId=\RWEKMQWN\ZCMRVKSB|Kind=1|AlternatePart= 
+Variation5=Designator=L27|UniqueId=\DFAWZYXO\WFKUPSKE|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant3]
@@ -404,9 +406,10 @@ UniqueID=EBDAB99C-249F-4CB5-ABE5-5402827BC942
 Description=EXT PWR AFC4
 AllowFabrication=0
 ParameterCount=0
-VariationCount=2
-Variation1=Designator=R2|UniqueId=\DFAWZYXO\EJDZSPGN|Kind=1|AlternatePart= 
+VariationCount=3
+Variation1=Designator=R2|UniqueId=\DFAWZYXO\BDCZVIRH|Kind=1|AlternatePart= 
 Variation2=Designator=F2|UniqueId=\RWEKMQWN\GCPNCFIT|Kind=1|AlternatePart= 
+Variation3=Designator=L28|UniqueId=\DFAWZYXO\MRBLHVXD|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant4]
@@ -414,11 +417,12 @@ UniqueID=BB3CDF7E-62D2-4268-BEAC-A1BC12EB68B3
 Description=INT PWR AFC4
 AllowFabrication=0
 ParameterCount=0
-VariationCount=4
-Variation1=Designator=R2|UniqueId=\DFAWZYXO\EJDZSPGN|Kind=1|AlternatePart= 
+VariationCount=5
+Variation1=Designator=R2|UniqueId=\DFAWZYXO\BDCZVIRH|Kind=1|AlternatePart= 
 Variation2=Designator=C54|UniqueId=\RWEKMQWN\EQCPLYEI|Kind=1|AlternatePart= 
 Variation3=Designator=F3|UniqueId=\RWEKMQWN\KRFGPVJD|Kind=1|AlternatePart= 
 Variation4=Designator=J6|UniqueId=\RWEKMQWN\ZCMRVKSB|Kind=1|AlternatePart= 
+Variation5=Designator=L28|UniqueId=\DFAWZYXO\MRBLHVXD|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
