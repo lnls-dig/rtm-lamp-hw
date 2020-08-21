@@ -412,6 +412,258 @@ Variation5=Designator=L28|UniqueId=\DFAWZYXO\MRBLHVXD|Kind=1|AlternatePart=
 Variation6=Designator=OSC1|UniqueId=\XXGOLPRC\VYUXXOFV|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for rtm-lamp\Test Points\Assembly Testpoint Report for rtm-lamp.csv
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for rtm-lamp\BOM\Bill of Materials-rtm-lamp.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\comp_+_bot\components
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\comp_+_top\components
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\eda\data
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\bottom_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\bottom_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\bottom_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\bottom_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\comp_+_bot\features
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\comp_+_top\features
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\drill\features
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\internal_layer_1\features
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\internal_layer_1_1\features
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\internal_layer_2\features
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\internal_layer_3\features
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\internal_plane_4\features
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\keep-out_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\mechanical_1\features
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\mechanical_2\features
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\mechanical_3\features
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\mechanical_8\features
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\mechanical_13\features
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\mechanical_14\features
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\mechanical_15\features
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\mechanical_16\features
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\mechanical_18\features
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\mechanical_19\features
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\mechanical_20\features
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\top_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\top_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\top_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\matrix\matrix
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\netlists\cadnet\netlist
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs for rtm-lamp\Pick Place\Pick Place for rtm-lamp.txt
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\profile
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs for rtm-lamp\NC Drill\rtm-lamp-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for rtm-lamp\NC Drill\rtm-lamp-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs for rtm-lamp\NC Drill\rtm-lamp.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Project Outputs for rtm-lamp\NC Drill\rtm-lamp.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp.REP
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs for rtm-lamp\ODB\rtm-lamp.REP
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=Project Outputs for rtm-lamp\ExportSTEP\rtm-lamp.step
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp_Copper_Plane_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp_Copper_Signal_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument49]
+DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp_Copper_Signal_2.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument50]
+DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp_Copper_Signal_3.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument51]
+DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp_Copper_Signal_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument52]
+DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp_Copper_Signal_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument53]
+DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp_Legend_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument54]
+DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp_Legend_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument55]
+DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp_Paste_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument56]
+DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp_Paste_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument57]
+DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp_Profile.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument58]
+DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument59]
+DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp_Soldermask_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument60]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\stephdr
+DItemRevisionGUID=
+
+[GeneratedDocument61]
+DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\drill\tools
+DItemRevisionGUID=
+
+[Parameter1]
+Name=Title
+Value=FOFB Linear Amplifier
+
+[Parameter2]
+Name=CompanyName
+Value=CNPEM - LNLS
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
