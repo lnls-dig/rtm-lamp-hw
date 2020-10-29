@@ -840,6 +840,59 @@ Variation112=Designator=FTG6|UniqueId=\MJIENGXX|Kind=1|AlternatePart=
 Variation113=Designator=FTG5|UniqueId=\CZMSNTUG|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[ProjectVariant5]
+UniqueID=628BE221-FEA1-4559-BA46-3565AE26DBDF
+Description=INT PWR AFC3.1 8 CH
+AllowFabrication=1
+ParameterCount=0
+VariationCount=45
+Variation1=Designator=IC26_CH11|UniqueId=\XZKUFNEX\BUQJAHZD|Kind=1|AlternatePart= 
+Variation2=Designator=IC26_CH10|UniqueId=\CTWOEYBJ\BUQJAHZD|Kind=1|AlternatePart= 
+Variation3=Designator=IC26_CH9|UniqueId=\OXVWQZEH\BUQJAHZD|Kind=1|AlternatePart= 
+Variation4=Designator=IC26_CH8|UniqueId=\UAKODNYX\BUQJAHZD|Kind=1|AlternatePart= 
+Variation5=Designator=IC27_CH11|UniqueId=\XZKUFNEX\NVROQWLT|Kind=1|AlternatePart= 
+Variation6=Designator=IC27_CH10|UniqueId=\CTWOEYBJ\NVROQWLT|Kind=1|AlternatePart= 
+Variation7=Designator=IC27_CH9|UniqueId=\OXVWQZEH\NVROQWLT|Kind=1|AlternatePart= 
+Variation8=Designator=IC27_CH8|UniqueId=\UAKODNYX\NVROQWLT|Kind=1|AlternatePart= 
+Variation9=Designator=IC28_CH10|UniqueId=\CTWOEYBJ\NIKCMWFB|Kind=1|AlternatePart= 
+Variation10=Designator=IC28_CH11|UniqueId=\XZKUFNEX\NIKCMWFB|Kind=1|AlternatePart= 
+Variation11=Designator=IC28_CH9|UniqueId=\OXVWQZEH\NIKCMWFB|Kind=1|AlternatePart= 
+Variation12=Designator=IC28_CH8|UniqueId=\UAKODNYX\NIKCMWFB|Kind=1|AlternatePart= 
+Variation13=Designator=IC29_CH11|UniqueId=\XZKUFNEX\KAPJVADV|Kind=1|AlternatePart= 
+Variation14=Designator=IC29_CH10|UniqueId=\CTWOEYBJ\KAPJVADV|Kind=1|AlternatePart= 
+Variation15=Designator=IC29_CH9|UniqueId=\OXVWQZEH\KAPJVADV|Kind=1|AlternatePart= 
+Variation16=Designator=IC29_CH8|UniqueId=\UAKODNYX\KAPJVADV|Kind=1|AlternatePart= 
+Variation17=Designator=R83_CH11|UniqueId=\XZKUFNEX\NOQZETDB|Kind=1|AlternatePart= 
+Variation18=Designator=R83_CH10|UniqueId=\CTWOEYBJ\NOQZETDB|Kind=1|AlternatePart= 
+Variation19=Designator=R83_CH9|UniqueId=\OXVWQZEH\NOQZETDB|Kind=1|AlternatePart= 
+Variation20=Designator=R83_CH8|UniqueId=\UAKODNYX\NOQZETDB|Kind=1|AlternatePart= 
+Variation21=Designator=D4_CH11|UniqueId=\XZKUFNEX\FBNYCSLQ|Kind=1|AlternatePart= 
+Variation22=Designator=D4_CH10|UniqueId=\CTWOEYBJ\FBNYCSLQ|Kind=1|AlternatePart= 
+Variation23=Designator=D4_CH9|UniqueId=\OXVWQZEH\FBNYCSLQ|Kind=1|AlternatePart= 
+Variation24=Designator=D4_CH8|UniqueId=\UAKODNYX\FBNYCSLQ|Kind=1|AlternatePart= 
+Variation25=Designator=D2_CH11|UniqueId=\XZKUFNEX\GBWBWQLO|Kind=1|AlternatePart= 
+Variation26=Designator=D2_CH10|UniqueId=\CTWOEYBJ\GBWBWQLO|Kind=1|AlternatePart= 
+Variation27=Designator=D2_CH9|UniqueId=\OXVWQZEH\GBWBWQLO|Kind=1|AlternatePart= 
+Variation28=Designator=D2_CH8|UniqueId=\UAKODNYX\GBWBWQLO|Kind=1|AlternatePart= 
+Variation29=Designator=IC39|UniqueId=\XTJAJEYD\HWOKSKZM|Kind=1|AlternatePart= 
+Variation30=Designator=C83_CH10|UniqueId=\CTWOEYBJ\QFKGMNUV|Kind=1|AlternatePart= 
+Variation31=Designator=C83_CH11|UniqueId=\XZKUFNEX\QFKGMNUV|Kind=1|AlternatePart= 
+Variation32=Designator=C83_CH9|UniqueId=\OXVWQZEH\QFKGMNUV|Kind=1|AlternatePart= 
+Variation33=Designator=C83_CH8|UniqueId=\UAKODNYX\QFKGMNUV|Kind=1|AlternatePart= 
+Variation34=Designator=D5_CH9|UniqueId=\OXVWQZEH\SGKLNCZO|Kind=1|AlternatePart= 
+Variation35=Designator=D5_CH8|UniqueId=\UAKODNYX\SGKLNCZO|Kind=1|AlternatePart= 
+Variation36=Designator=D5_CH10|UniqueId=\CTWOEYBJ\SGKLNCZO|Kind=1|AlternatePart= 
+Variation37=Designator=D5_CH11|UniqueId=\XZKUFNEX\SGKLNCZO|Kind=1|AlternatePart= 
+Variation38=Designator=D3_CH8|UniqueId=\UAKODNYX\KLKOITZE|Kind=1|AlternatePart= 
+Variation39=Designator=D3_CH9|UniqueId=\OXVWQZEH\KLKOITZE|Kind=1|AlternatePart= 
+Variation40=Designator=D3_CH10|UniqueId=\CTWOEYBJ\KLKOITZE|Kind=1|AlternatePart= 
+Variation41=Designator=D3_CH11|UniqueId=\XZKUFNEX\KLKOITZE|Kind=1|AlternatePart= 
+Variation42=Designator=RN1_CH9|UniqueId=\OXVWQZEH\KDESHFRG|Kind=1|AlternatePart= 
+Variation43=Designator=RN1_CH8|UniqueId=\UAKODNYX\KDESHFRG|Kind=1|AlternatePart= 
+Variation44=Designator=RN1_CH10|UniqueId=\CTWOEYBJ\KDESHFRG|Kind=1|AlternatePart= 
+Variation45=Designator=RN1_CH11|UniqueId=\XZKUFNEX\KDESHFRG|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\BOM\BOM INT PWR AFC3.1-rtm-lamp(INT PWR AFC3.1).xlsx
 DItemRevisionGUID=
@@ -1037,20 +1090,20 @@ DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\ODB\odb\steps\p
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Revision
-Value=v1.0-RC3
+Name=CompanyName
+Value=CNPEM - LNLS
 
 [Parameter2]
-Name=PrjName
-Value=FOFB Linear Amplifier
-
-[Parameter3]
 Name=PrjAuthor
 Value=Augusto Fraga Giachero
 
+[Parameter3]
+Name=PrjName
+Value=FOFB Linear Amplifier
+
 [Parameter4]
-Name=CompanyName
-Value=CNPEM - LNLS
+Name=Revision
+Value=v1.0-RC3
 
 [Configuration1]
 Name=Sources
