@@ -1682,20 +1682,20 @@ DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\ODB\odb\steps\p
 DItemRevisionGUID=
 
 [Parameter1]
-Name=CompanyName
-Value=CNPEM - LNLS
+Name=Revision
+Value=v1.0
 
 [Parameter2]
-Name=PrjAuthor
-Value=Augusto Fraga Giachero
-
-[Parameter3]
 Name=PrjName
 Value=FOFB Linear Amplifier
 
+[Parameter3]
+Name=PrjAuthor
+Value=Augusto Fraga Giachero
+
 [Parameter4]
-Name=Revision
-Value=v1.0-RC3
+Name=CompanyName
+Value=CNPEM - LNLS
 
 [Configuration1]
 Name=Sources
