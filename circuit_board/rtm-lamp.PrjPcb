@@ -1486,608 +1486,220 @@ Variation157=Designator=R137|UniqueId=\XTJAJEYD\JPKAHHLO|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\BOM\BOM INT PWR AFC3.1-rtm-lamp(INT PWR AFC3.1).xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\BOM\BOM INT PWR AFC3.1-rtm-lamp(INT PWR AFC3.1 SDR).xlsx
 DItemRevisionGUID=
 
-[GeneratedDocument3]
-DocumentPath=Project Outputs for rtm-lamp\BOM\BOM INT PWR AFC3.1 8 CH-rtm-lamp(INT PWR AFC3.1 SDR 8CH).xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument4]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\ODB\odb\steps\pcb\layers\comp_+_bot\components
 DItemRevisionGUID=
 
-[GeneratedDocument5]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\ODB\odb\steps\pcb\layers\comp_+_top\components
 DItemRevisionGUID=
 
-[GeneratedDocument6]
-DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\comp_+_bot\components
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\comp_+_top\components
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\ODB\odb\steps\pcb\layers\comp_+_bot\components
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\ODB\odb\steps\pcb\layers\comp_+_top\components
-DItemRevisionGUID=
-
-[GeneratedDocument10]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\ODB\odb\steps\pcb\eda\data
 DItemRevisionGUID=
 
-[GeneratedDocument11]
-DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\eda\data
+[GeneratedDocument5]
+DocumentPath=Project Outputs for rtm-lamp\Design Rule Check - rtm-lamp.html
 DItemRevisionGUID=
 
-[GeneratedDocument12]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\ODB\odb\steps\pcb\eda\data
-DItemRevisionGUID=
-
-[GeneratedDocument13]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\ODB\odb\steps\pcb\layers\bottom_layer\features
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\ODB\odb\steps\pcb\layers\bottom_overlay\features
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\ODB\odb\steps\pcb\layers\bottom_paste\features
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\ODB\odb\steps\pcb\layers\bottom_solder\features
 DItemRevisionGUID=
 
-[GeneratedDocument17]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\ODB\odb\steps\pcb\layers\comp_+_bot\features
 DItemRevisionGUID=
 
-[GeneratedDocument18]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\ODB\odb\steps\pcb\layers\comp_+_top\features
 DItemRevisionGUID=
 
-[GeneratedDocument19]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\ODB\odb\steps\pcb\layers\drill\features
 DItemRevisionGUID=
 
-[GeneratedDocument20]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\ODB\odb\steps\pcb\layers\internal_layer_1\features
 DItemRevisionGUID=
 
-[GeneratedDocument21]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\ODB\odb\steps\pcb\layers\internal_layer_2\features
 DItemRevisionGUID=
 
-[GeneratedDocument22]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\ODB\odb\steps\pcb\layers\internal_layer_3\features
 DItemRevisionGUID=
 
-[GeneratedDocument23]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\ODB\odb\steps\pcb\layers\internal_plane_4\features
 DItemRevisionGUID=
 
-[GeneratedDocument24]
+[GeneratedDocument17]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\ODB\odb\steps\pcb\layers\keep-out_layer\features
 DItemRevisionGUID=
 
-[GeneratedDocument25]
+[GeneratedDocument18]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\ODB\odb\steps\pcb\layers\top_layer\features
 DItemRevisionGUID=
 
-[GeneratedDocument26]
+[GeneratedDocument19]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\ODB\odb\steps\pcb\layers\top_overlay\features
 DItemRevisionGUID=
 
-[GeneratedDocument27]
+[GeneratedDocument20]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\ODB\odb\steps\pcb\layers\top_paste\features
 DItemRevisionGUID=
 
-[GeneratedDocument28]
+[GeneratedDocument21]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\ODB\odb\steps\pcb\layers\top_solder\features
 DItemRevisionGUID=
 
-[GeneratedDocument29]
-DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\bottom_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\bottom_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\bottom_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\bottom_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\comp_+_bot\features
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\comp_+_top\features
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\drill\features
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\internal_layer_1\features
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\internal_layer_2\features
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\internal_layer_3\features
-DItemRevisionGUID=
-
-[GeneratedDocument39]
-DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\internal_plane_4\features
-DItemRevisionGUID=
-
-[GeneratedDocument40]
-DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\keep-out_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument41]
-DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\top_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument42]
-DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\top_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument43]
-DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\top_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument44]
-DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\top_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument45]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\ODB\odb\steps\pcb\layers\bottom_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument46]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\ODB\odb\steps\pcb\layers\bottom_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument47]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\ODB\odb\steps\pcb\layers\bottom_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument48]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\ODB\odb\steps\pcb\layers\bottom_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument49]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\ODB\odb\steps\pcb\layers\comp_+_bot\features
-DItemRevisionGUID=
-
-[GeneratedDocument50]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\ODB\odb\steps\pcb\layers\comp_+_top\features
-DItemRevisionGUID=
-
-[GeneratedDocument51]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\ODB\odb\steps\pcb\layers\drill\features
-DItemRevisionGUID=
-
-[GeneratedDocument52]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\ODB\odb\steps\pcb\layers\internal_layer_1\features
-DItemRevisionGUID=
-
-[GeneratedDocument53]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\ODB\odb\steps\pcb\layers\internal_layer_2\features
-DItemRevisionGUID=
-
-[GeneratedDocument54]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\ODB\odb\steps\pcb\layers\internal_layer_3\features
-DItemRevisionGUID=
-
-[GeneratedDocument55]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\ODB\odb\steps\pcb\layers\internal_plane_4\features
-DItemRevisionGUID=
-
-[GeneratedDocument56]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\ODB\odb\steps\pcb\layers\keep-out_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument57]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\ODB\odb\steps\pcb\layers\top_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument58]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\ODB\odb\steps\pcb\layers\top_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument59]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\ODB\odb\steps\pcb\layers\top_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument60]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\ODB\odb\steps\pcb\layers\top_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument61]
+[GeneratedDocument22]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\ODB\odb\matrix\matrix
 DItemRevisionGUID=
 
-[GeneratedDocument62]
-DocumentPath=Project Outputs for rtm-lamp\ODB\odb\matrix\matrix
-DItemRevisionGUID=
-
-[GeneratedDocument63]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\ODB\odb\matrix\matrix
-DItemRevisionGUID=
-
-[GeneratedDocument64]
+[GeneratedDocument23]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\ODB\odb\steps\pcb\netlists\cadnet\netlist
 DItemRevisionGUID=
 
-[GeneratedDocument65]
-DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\netlists\cadnet\netlist
-DItemRevisionGUID=
-
-[GeneratedDocument66]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\ODB\odb\steps\pcb\netlists\cadnet\netlist
-DItemRevisionGUID=
-
-[GeneratedDocument67]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\Pick Place\Pick Place for rtm-lamp(INT PWR AFC3.1).txt
-DItemRevisionGUID=
-
-[GeneratedDocument68]
-DocumentPath=Project Outputs for rtm-lamp\Pick Place\Pick Place for rtm-lamp(INT PWR AFC3.1 SDR 8CH).txt
-DItemRevisionGUID=
-
-[GeneratedDocument69]
+[GeneratedDocument24]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\Pick Place\Pick Place for rtm-lamp(INT PWR AFC3.1 SDR).txt
 DItemRevisionGUID=
 
-[GeneratedDocument70]
+[GeneratedDocument25]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\ODB\odb\steps\pcb\profile
 DItemRevisionGUID=
 
-[GeneratedDocument71]
-DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\profile
-DItemRevisionGUID=
-
-[GeneratedDocument72]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\ODB\odb\steps\pcb\profile
-DItemRevisionGUID=
-
-[GeneratedDocument73]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\ExportSTEP\rtm-lamp(INT PWR AFC3.1).step
-DItemRevisionGUID=
-
-[GeneratedDocument74]
-DocumentPath=Project Outputs for rtm-lamp\ExportSTEP\rtm-lamp(INT PWR AFC3.1 SDR 8CH).step
-DItemRevisionGUID=
-
-[GeneratedDocument75]
+[GeneratedDocument26]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\ExportSTEP\rtm-lamp(INT PWR AFC3.1 SDR).step
 DItemRevisionGUID=
 
-[GeneratedDocument76]
+[GeneratedDocument27]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\NC Drill\rtm-lamp-RoundHoles.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument77]
-DocumentPath=Project Outputs for rtm-lamp\NC Drill\rtm-lamp-RoundHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument78]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\NC Drill\rtm-lamp-RoundHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument79]
+[GeneratedDocument28]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\NC Drill\rtm-lamp-SlotHoles.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument80]
-DocumentPath=Project Outputs for rtm-lamp\NC Drill\rtm-lamp-SlotHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument81]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\NC Drill\rtm-lamp-SlotHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument82]
+[GeneratedDocument29]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\IPC2581\rtm-lamp.cvg
 DItemRevisionGUID=
 
-[GeneratedDocument83]
-DocumentPath=Project Outputs for rtm-lamp\IPC2581\rtm-lamp.cvg
-DItemRevisionGUID=
-
-[GeneratedDocument84]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\IPC2581\rtm-lamp.cvg
-DItemRevisionGUID=
-
-[GeneratedDocument85]
+[GeneratedDocument30]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\NC Drill\rtm-lamp.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument86]
-DocumentPath=Project Outputs for rtm-lamp\NC Drill\rtm-lamp.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument87]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\NC Drill\rtm-lamp.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument88]
-DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument89]
+[GeneratedDocument31]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\GerberX2\rtm-lamp.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument90]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\GerberX2\rtm-lamp.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument91]
+[GeneratedDocument32]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\NC Drill\rtm-lamp.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument92]
-DocumentPath=Project Outputs for rtm-lamp\NC Drill\rtm-lamp.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument93]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\NC Drill\rtm-lamp.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument94]
-DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp.REP
-DItemRevisionGUID=
-
-[GeneratedDocument95]
+[GeneratedDocument33]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\GerberX2\rtm-lamp.REP
 DItemRevisionGUID=
 
-[GeneratedDocument96]
+[GeneratedDocument34]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\ODB\rtm-lamp.REP
 DItemRevisionGUID=
 
-[GeneratedDocument97]
-DocumentPath=Project Outputs for rtm-lamp\ODB\rtm-lamp.REP
-DItemRevisionGUID=
-
-[GeneratedDocument98]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\GerberX2\rtm-lamp.REP
-DItemRevisionGUID=
-
-[GeneratedDocument99]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\ODB\rtm-lamp.REP
-DItemRevisionGUID=
-
-[GeneratedDocument100]
-DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument101]
+[GeneratedDocument35]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\GerberX2\rtm-lamp.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument102]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\GerberX2\rtm-lamp.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument103]
-DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp_Copper_Plane_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument104]
+[GeneratedDocument36]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\GerberX2\rtm-lamp_Copper_Plane_1.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument105]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\GerberX2\rtm-lamp_Copper_Plane_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument106]
-DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp_Copper_Signal_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument107]
+[GeneratedDocument37]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\GerberX2\rtm-lamp_Copper_Signal_1.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument108]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\GerberX2\rtm-lamp_Copper_Signal_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument109]
-DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp_Copper_Signal_2.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument110]
+[GeneratedDocument38]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\GerberX2\rtm-lamp_Copper_Signal_2.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument111]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\GerberX2\rtm-lamp_Copper_Signal_2.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument112]
-DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp_Copper_Signal_3.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument113]
+[GeneratedDocument39]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\GerberX2\rtm-lamp_Copper_Signal_3.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument114]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\GerberX2\rtm-lamp_Copper_Signal_3.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument115]
-DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp_Copper_Signal_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument116]
+[GeneratedDocument40]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\GerberX2\rtm-lamp_Copper_Signal_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument117]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\GerberX2\rtm-lamp_Copper_Signal_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument118]
-DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp_Copper_Signal_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument119]
+[GeneratedDocument41]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\GerberX2\rtm-lamp_Copper_Signal_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument120]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\GerberX2\rtm-lamp_Copper_Signal_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument121]
-DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp_Legend_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument122]
+[GeneratedDocument42]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\GerberX2\rtm-lamp_Legend_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument123]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\GerberX2\rtm-lamp_Legend_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument124]
-DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp_Legend_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument125]
+[GeneratedDocument43]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\GerberX2\rtm-lamp_Legend_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument126]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\GerberX2\rtm-lamp_Legend_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument127]
-DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp_Paste_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument128]
+[GeneratedDocument44]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\GerberX2\rtm-lamp_Paste_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument129]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\GerberX2\rtm-lamp_Paste_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument130]
-DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp_Paste_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument131]
+[GeneratedDocument45]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\GerberX2\rtm-lamp_Paste_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument132]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\GerberX2\rtm-lamp_Paste_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument133]
-DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp_Profile.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument134]
+[GeneratedDocument46]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\GerberX2\rtm-lamp_Profile.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument135]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\GerberX2\rtm-lamp_Profile.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument136]
-DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp_Soldermask_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument137]
+[GeneratedDocument47]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\GerberX2\rtm-lamp_Soldermask_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument138]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\GerberX2\rtm-lamp_Soldermask_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument139]
-DocumentPath=Project Outputs for rtm-lamp\GerberX2\rtm-lamp_Soldermask_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument140]
+[GeneratedDocument48]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\GerberX2\rtm-lamp_Soldermask_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument141]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\GerberX2\rtm-lamp_Soldermask_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument142]
+[GeneratedDocument49]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\ODB\odb\steps\pcb\stephdr
 DItemRevisionGUID=
 
-[GeneratedDocument143]
-DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\stephdr
-DItemRevisionGUID=
-
-[GeneratedDocument144]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\ODB\odb\steps\pcb\stephdr
-DItemRevisionGUID=
-
-[GeneratedDocument145]
+[GeneratedDocument50]
 DocumentPath=Project Outputs for rtm-lamp\INT PWR AFC3.1 SDR\ODB\odb\steps\pcb\layers\drill\tools
 DItemRevisionGUID=
 
-[GeneratedDocument146]
-DocumentPath=Project Outputs for rtm-lamp\ODB\odb\steps\pcb\layers\drill\tools
-DItemRevisionGUID=
-
-[GeneratedDocument147]
-DocumentPath=Project Outputs for rtm-lamp\PCB Fab INT PWR AFC3.1\ODB\odb\steps\pcb\layers\drill\tools
-DItemRevisionGUID=
-
 [Parameter1]
-Name=Revision
-Value=v1.1
+Name=CompanyName
+Value=CNPEM - LNLS
 
 [Parameter2]
-Name=PrjName
-Value=FOFB Linear Amplifier
-
-[Parameter3]
 Name=PrjAuthor
 Value=Augusto Fraga Giachero
 
+[Parameter3]
+Name=PrjName
+Value=FOFB Linear Amplifier
+
 [Parameter4]
-Name=CompanyName
-Value=CNPEM - LNLS
+Name=Revision
+Value=v1.1
 
 [Configuration1]
 Name=Sources
@@ -2739,6 +2351,36 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Ansoft Neutral
+OutputName12=Ansoft Neutral (AutoPCB)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=HyperLynx
+OutputName13=HyperLynx (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=Orcad v7 Capture Design
+OutputName14=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD ASCII
+OutputName15=P-CAD ASCII (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD V16 Schematic Design
+OutputName16=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
