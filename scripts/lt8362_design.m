@@ -27,8 +27,8 @@ cur_sw_avg_max = cur_max / (1 - dmax);
 sw_ipp = ind_ipp_ratio * cur_sw_avg_max;
 ind = (vin_min * dmax) / (0.5 * sw_ipp * freq);
 
-printf('---- Design report: LT8362 ----\n\n');
-printf('Initial parameters: Vin = %.2f V, Vout = %.2f V, Iload_max = %.2f A,\nFreq = %.1f kHz\n\n', vin, vout, cur_max, freq / 1000);
-printf('Results:\n');
-printf('Inductor = %s\n', format_eng(ind, 'H'));
-printf('Voltage regulator resistors: R1 = %s, R2 = %s\n', format_eng(rreg1, 'Ohms'), format_eng(rreg2, 'Ohms'));
+fprintf('---- Design report: LT8362 ----\n\n');
+fprintf('Initial parameters: Vin = %.2f V, Vout = %.2f V, Iload_max = %.2f A,\nFreq = %.1f kHz\n\n', vin, vout, cur_max, freq / 1000);
+fprintf('Results:\n');
+fprintf('Inductor = %s\n', format_eng(ind, 'H'));
+fprintf('Voltage regulator resistors: R1 = %s, R2 = %s\n', format_eng(rreg1, 'Ohms'), format_eng(rreg2, 'Ohms'));

@@ -42,15 +42,15 @@ switch (adp_ch1_acs)
 	adp_ch1_rcsg_str = '100 kOhms';
 end
 
-printf('---- Design report: ADP1850 CH1 and CH2 ----\n\n');
-printf('Initial parameters: Vin = %.2f V, Vout = %.2f V, Iload_max = %.2f A,\nFreq = %.1f kHz, Acs = %d, Cout = %.1f uF\n\n', adp_ch1_vin, adp_ch1_vout, adp_ch1_max_cur, adp_ch1_freq / 1000, adp_ch1_acs, adp_ch1_cout * 1e6);
-printf('Results:\n');
-printf('Inductor = %s\n', format_eng(adp_ch1_ind, 'H'));
-printf('Voltage regulator resistors: R1 = %s, R2 = %s\n', format_eng(adp_ch1_reg_r1, 'Ohms'), format_eng(adp_ch1_reg_r2, 'Ohms'));
-printf('Rfreq = %s\n', format_eng(adp_ch1_rfreq, 'Ohms'));
-printf('Rlim = %s\n', format_eng(adp_ch1_rlim, 'Ohms'));
-printf('Rramp = %s\n', format_eng(adp_ch1_rramp, 'Ohms'));
-printf('Rcomp = %s\n', format_eng(adp_ch1_rcomp, 'Ohms'));
-printf('Ccomp = %s\n', format_eng(adp_ch1_ccomp, 'F'));
-printf('Cc2 = %s\n', format_eng(adp_ch1_cc2, 'F'));
-printf('Rcsg = %s\n', adp_ch1_rcsg_str);
+fprintf('---- Design report: ADP1850 CH1 and CH2 ----\n\n');
+fprintf('Initial parameters: Vin = %.2f V, Vout = %.2f V, Iload_max = %.2f A,\nFreq = %.1f kHz, Acs = %d, Cout = %.1f uF\n\n', adp_ch1_vin, adp_ch1_vout, adp_ch1_max_cur, adp_ch1_freq / 1000, adp_ch1_acs, adp_ch1_cout * 1e6);
+fprintf('Results:\n');
+fprintf('Inductor = %s\n', format_eng(adp_ch1_ind, 'H'));
+fprintf('Voltage regulator resistors: R1 = %s, R2 = %s\n', format_eng(adp_ch1_reg_r1, 'Ohms'), format_eng(adp_ch1_reg_r2, 'Ohms'));
+fprintf('Rfreq = %s\n', format_eng(adp_ch1_rfreq, 'Ohms'));
+fprintf('Rlim = %s\n', format_eng(adp_ch1_rlim, 'Ohms'));
+fprintf('Rramp = %s\n', format_eng(adp_ch1_rramp, 'Ohms'));
+fprintf('Rcomp = %s\n', format_eng(adp_ch1_rcomp, 'Ohms'));
+fprintf('Ccomp = %s\n', format_eng(adp_ch1_ccomp, 'F'));
+fprintf('Cc2 = %s\n', format_eng(adp_ch1_cc2, 'F'));
+fprintf('Rcsg = %s\n', adp_ch1_rcsg_str);
