@@ -1,4 +1,4 @@
-function [r1 r2 err] = sel_res_ratio(ratio, min_res = 1000, series = 'E24')
+function [r1 r2 err] = sel_res_ratio(ratio, min_res, series)
   %% -- [r1 r2 err] = sel_res_ratio(ratio)
   %% -- [r1 r2 err] = sel_res_ratio(ratio, min_res)
   %% -- [r1 r2 err] = sel_res_ratio(ratio, min_res, series)
@@ -20,6 +20,13 @@ function [r1 r2 err] = sel_res_ratio(ratio, min_res = 1000, series = 'E24')
   %%   series = 'E48' # tolerance 2%
   %%   series = 'E96' # tolerance 1%
 
+  if nargin < 2
+      min_res = 1000;
+  end
+  if nargin < 3
+      series = 'E24';
+  end
+  
   if (strcmp(series, 'E6'))
 	res_table = [1 1.5 2.2 3.3 4.7 6.8];
   elseif (strcmp(series, 'E12'))
