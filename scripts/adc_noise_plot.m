@@ -4,7 +4,7 @@ function adc_noise_plot(csv_file, period)
   freq = (1/(period * length(time) * 2)):(1/(period * length(time) * 2)):1/period;
   freq = freq(1:(length(time)/2));
 
-  for i = 0:1:(columns(data) - 1)
+  for i = 0:1:(size(data,2) - 1)
 	cur_vec = data(:,i + 1);
 	figure();
 	subplot(2, 1, 1);
@@ -25,7 +25,7 @@ function adc_noise_plot(csv_file, period)
 	title(sprintf("CH%d", i));
 	grid on;
 	file = sprintf("noise_ch%d.png", i);
-	print(file);
+	saveas(gcf, file);
 	close;
   end
 end
