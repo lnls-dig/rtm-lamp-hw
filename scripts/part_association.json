@@ -1,0 +1,282 @@
+{
+    "CC0402_100NF_16V_10%_X7R": {
+        "partnumber": "CC0402KRX7R7BB104",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "CC0805_1UF_16V_10%_X7R": {
+        "partnumber": "CC0805KKX7R7BB105",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "CC0402_220PF_50V_5%_C0G": {
+        "partnumber": "GRM1555C1H221JA01D",
+        "manufacturer": "MURATA",
+        "notes": ""
+    },
+    "CC0402_2.2NF_50V_10%_X7R": {
+        "partnumber": "GRM155R71H222KA01D",
+        "manufacturer": "MURATA",
+        "notes": ""
+    },
+    "CC1206_10uF_25V_10%_X7R": {
+        "partnumber": "GRM31CR71E106KA12L",
+        "manufacturer": "MURATA",
+        "notes": ""
+    },
+    "CC1206_10UF_25V_10%_X7R": {
+        "partnumber": "GRM31CR71E106KA12L",
+        "manufacturer": "MURATA",
+        "notes": ""
+    },
+    "CC0805_10UF_25V_10%_X5R": {
+        "partnumber": "GRM21BR61E106KA73L",
+        "manufacturer": "MURATA",
+        "notes": ""
+    },
+    "CC0603_100NF_50V_10%_X7R": {
+        "partnumber": "C0603C104K5RACTU",
+        "manufacturer": "KEMET",
+        "notes": ""
+    },
+    "CC0805_1UF_25V_10%_X7R": {
+        "partnumber": "CC0805KKX7R8BB105",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "CC0402_4.7PF_50V_0.25PF_C0G": {
+        "partnumber": "CC0402BRNPO9BN4R7",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "CC0402_10NF_25V_10%_X7R": {
+        "partnumber": "CC0402KRX7R8BB103",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "CC0402_680PF_50V_10%_X7R": {
+        "partnumber": "C0402C681K5RACTU",
+        "manufacturer": "KEMET",
+        "notes": ""
+    },
+    "CC0402_680PF_50V_5%_X7R": {
+        "partnumber": "C0402C681K5RACTU",
+        "manufacturer": "KEMET",
+        "notes": ""
+    },
+    "CC0805_47UF_6.3V_20%_X5R": {
+        "partnumber": "GRM219R60J476ME44D",
+        "manufacturer": "MURATA",
+        "notes": ""
+    },
+    "CTE3528-21_47UF_6.3V_10%_LESR0250": {
+        "partnumber": "TPSB476K006R0250",
+        "manufacturer": "AVX",
+        "notes": ""
+    },
+    "CC0805_100NF_50V_10%_X7R": {
+        "partnumber": "CC0805KRX7R9BB104",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0402_27R_1%_0.0625W_100PPM": {
+        "partnumber": "RC0402FR-0727RL",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0402_10K_1%_0.0625W_100PPM": {
+        "partnumber": "RC0402FR-0710KL",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R1206_1M_1%_0.25W_100PPM": {
+        "partnumber": "CR1206-FX-1004ELF",
+        "manufacturer": "BOURNS",
+        "notes": ""
+    },
+    "R0402_330R_1%_0.0625W_100PPM": {
+        "partnumber": "RC0402FR-07330RL",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0402_6K8_1%_0.0625W_100PPM": {
+        "partnumber": "RC0402FR-076K8L",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0402_100R_1%_0.0625W_100PPM": {
+        "partnumber": "RC0402FR-13100RL",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0402_1K_1%_0.0625W_100PPM": {
+        "partnumber": "AC0402FR-131KL",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0402_1K5_1%_0.0625W_100PPM": {
+        "partnumber": "RC0402FR-071K5L",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0402_12K_1%_0.0625W_100PPM": {
+        "partnumber": "RC0402FR-0712KL",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0402_36K_1%_0.0625W_100PPM": {
+        "partnumber": "RC0402FR-0736KL",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0402_270K_1%_0.0625W_100PPM": {
+        "partnumber": "RC0402FR-07270KL",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0805_6K2_1%_0.125W_100PPM": {
+        "partnumber": "RC0805FR-076K2L",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0402_100K_1%_0.0625W_100PPM": {
+        "partnumber": "RC0402FR-07100KL",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0402_110K_1%_0.0625W_100PPM": {
+        "partnumber": "RC0402FR-07110KL",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0805_1K2_1%_0.125W_100PPM": {
+        "partnumber": "RC0805FR-071K2L",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0805_18K_1%_0.125W_100PPM": {
+        "partnumber": "RT0805FRE0718KL",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0402_7K5_1%_0.0625W_100PPM": {
+        "partnumber": "RC0402FR-077K5L",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0402_20K5_1%_0.0625W_100PPM": {
+        "partnumber": "AC0603FR-0720K5L",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0805_9K1_1%_0.125W_100PPM": {
+        "partnumber": "RC0805FR-079K1L",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0402_2K_1%_0.0625W_100PPM": {
+        "partnumber": "RC0402FR-132KL",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0402_18K_1%_0.0625W_100PPM": {
+        "partnumber": "RC0402FR-0718KL",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0402_43K_1%_0.0625W_100PPM": {
+        "partnumber": "RC0402FR-0743KL",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0402_1K8_1%_0.0625W_100PPM": {
+        "partnumber": "RC0402FR-071K8L",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0402_8K2_1%_0.0625W_100PPM": {
+        "partnumber": "AC0402FR-078K2L",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0402_10R_1%_0.0625W_200PPM": {
+        "partnumber": "RC0402FR-0710RL",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0402_24R_1%_0.0625W_100PPM": {
+        "partnumber": "RC0402FR-0724RL",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0603_154R_1%_0.1W_100PPM": {
+        "partnumber": "RC0603FR-07154RL",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0603_154R_1%_0.063W_10PPM": {
+        "partnumber": "RC0603FR-07154RL",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0402_3K3_1%_0.0625W_100PPM": {
+        "partnumber": "RC0402FR-073K3L",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0805_3R3_1%_0.125W_200PPM": {
+        "partnumber": "RC0402FR-073R3L",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0402_2K4_1%_0.0625W_100PPM": {
+        "partnumber": "RC0402FR-072K4L",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0402_1K3_1%_0.0625W_100PPM": {
+        "partnumber": "RC0402FR-071K3L",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0402_820R_1%_0.0625W_100PPM": {
+        "partnumber": "ERJ-2RKF8200X",
+        "manufacturer": "PANASONIC",
+        "notes": ""
+    },
+    "R0402_470R_1%_0.0625W_100PPM": {
+        "partnumber": "RC0402FR-07470RL",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0402_150R_1%_0.0625W_100PPM": {
+        "partnumber": "AC0402FR-07150RL",
+        "manufacturer": "YAGEO",
+        "notes": ""
+    },
+    "R0402_9K1_1%_0.0625W_100PPM": {
+        "partnumber": "ERJ-2RKF9101X",
+        "manufacturer": "PANASONIC",
+        "notes": ""
+    },
+    "IND_10uH_20%_BOURNS_SRN5040TA-100M": {
+        "partnumber": "",
+        "manufacturer": "",
+        "notes": "Compatible replacement: SRN5040TA-150M"
+    },
+    "TPS7A2401": {
+        "partnumber": "",
+        "manufacturer": "",
+        "notes": "Compatible replacement: REG102NA-A/250"
+    },
+    "TANT_220uF_6.3V_20%_KEMET_T520D227M006ATE009": {
+        "partnumber": "",
+        "manufacturer": "",
+        "notes": "Compatible replacement: T530D227M010ATE010"
+    },
+    "AD8429BRZ": {
+        "partnumber": "",
+        "manufacturer": "",
+        "notes": "Compatible replacement: AD8429ARZ"
+    }
+}
