@@ -278,5 +278,20 @@
         "partnumber": "",
         "manufacturer": "",
         "notes": "Compatible replacement: AD8429ARZ"
+    },
+    "NC7SVU04P5X": {
+        "partnumber": "",
+        "manufacturer": "",
+        "notes": "Compatible replacement: SN74AUP1T04DCKR"
+    },
+    "PMEG6020ER": {
+        "partnumber": "",
+        "manufacturer": "",
+        "notes": "Compatible replacement: PMEG6020ELRX"
+    },
+    "TANT_47uF_25V_20%_AVX_TCJD476M025R0100E": {
+        "partnumber": "",
+        "manufacturer": "",
+        "notes": "Compatible replacement: TCJD476M025R0060"
     }
 }
