@@ -293,5 +293,25 @@
         "partnumber": "",
         "manufacturer": "",
         "notes": "Compatible replacement: TCJD476M025R0060"
+    },
+    "LTC2320CUKG-16": {
+        "partnumber": "",
+        "manufacturer": "",
+        "notes": "Compatible PNs: LTC2320CUKG-16#PBF, LTC2320IUKG-16#PBF, LTC2320HUKG-16#PBF, LTC2320CUKG-16#TRPBF, LTC2320IUKG-16#TRPBF, LTC2320HUKG-16#TRPBF"
+    },
+    "LTC2324CUKG-16": {
+        "partnumber": "",
+        "manufacturer": "",
+        "notes": "Compatible PNs: LTC2324CUKG-16#PBF, LTC2324IUKG-16#PBF, LTC2324HUKG-16#PBF, LTC2324CUKG-16#TRPBF, LTC2324IUKG-16#TRPBF, LTC2324HUKG-16#TRPBF"
+    },
+    "24LC64-I/MS": {
+        "partnumber": "",
+        "manufacturer": "",
+        "notes": "Compatible replacement: 24AA64T-I/MS"
+    },
+    "SN74AVC1T45DCKR": {
+        "partnumber": "",
+        "manufacturer": "",
+        "notes": "Compatible PNs: SN74AVC1T45DCKRE4, SN74AVC1T45DCKRG4, SN74AVC1T45DCKT, SN74AVC1T45DCKTG4"
     }
 }
