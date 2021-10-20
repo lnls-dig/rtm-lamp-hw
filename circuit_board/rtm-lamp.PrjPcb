@@ -1510,14 +1510,18 @@ Name=Revision
 Value=v1.2-RC2
 
 [Parameter2]
+Name=PrjRevision
+Value==Revision
+
+[Parameter3]
 Name=PrjName
 Value=FOFB Linear Amplifier
 
-[Parameter3]
+[Parameter4]
 Name=PrjAuthor
 Value=Augusto Fraga Giachero
 
-[Parameter4]
+[Parameter5]
 Name=CompanyName
 Value=CNPEM - LNLS
 
