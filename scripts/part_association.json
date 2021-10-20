@@ -313,5 +313,15 @@
         "partnumber": "",
         "manufacturer": "",
         "notes": "Compatible PNs: SN74AVC1T45DCKRE4, SN74AVC1T45DCKRG4, SN74AVC1T45DCKT, SN74AVC1T45DCKTG4"
+    },
+    "PCA9554PW": {
+        "partnumber": "",
+        "manufacturer": "",
+        "notes": "Compatible PN: PCA9554PW,118"
+    },
+    "MPM2001AT1": {
+        "partnumber": "",
+        "manufacturer": "",
+        "notes": "Compatible replacement: SOT-DIV23LF-03-1001-1001-BB"
     }
 }
