@@ -1507,7 +1507,7 @@ DItemRevisionGUID=
 
 [Parameter1]
 Name=Revision
-Value=v1.2-RC3
+Value=v1.2
 
 [Parameter2]
 Name=PrjRevision
