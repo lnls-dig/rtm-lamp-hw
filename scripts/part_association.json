@@ -323,5 +323,10 @@
         "partnumber": "",
         "manufacturer": "",
         "notes": "Compatible replacement: SOT-DIV23LF-03-1001-1001-BB"
+    },
+    "OP2177ARMZ": {
+        "partnumber": "",
+        "manufacturer": "",
+        "notes": "Compatible replacements: OP2177ARMZ-REEL, OP2177ARMZ-R7, OP2177CRMZ, OP2177CRMZ-REEL"
     }
 }
