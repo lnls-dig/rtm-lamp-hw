@@ -10,9 +10,9 @@ adp_ch1_l_mos_rds_min = 0.8e-3; % Ohm
 adp_ch1_l_mos_qg = 29e-9; % C
 
 adp_ch1_vin = 12;
-adp_ch1_vout = 4;
-adp_ch1_max_cur = 15; % A
-adp_ch1_nom_cur = 10; % A
+adp_ch1_vout = 3.7;
+adp_ch1_max_cur = 10; % A
+adp_ch1_nom_cur = 8; % A
 adp_ch1_freq = 580e3; % kHz
 adp_ch1_acs = 24; % can be 3, 6, 12 or 24
 adp_ch1_cout = 880e-6; % F
@@ -24,9 +24,10 @@ adp_ch1_ratio = (adp_ch1_vout - 0.6) / 0.6;
 adp_ch1_rfreq = 1000 * 96568 * ((adp_ch1_freq / 1000) ^ (-1.065));
 adp_ch1_rlim = (adp_ch1_max_cur * 1.3 * adp_ch1_l_mos_rds_max) / 47e-6;
 adp_ch1_rramp = (adp_ch1_ind * 7e9) / (adp_ch1_acs * adp_ch1_l_mos_rds_max);
-adp_ch1_rcomp = (0.97 * adp_ch1_acs * adp_ch1_l_mos_rds_min * 2 * pi * (adp_ch1_freq / 12) * adp_ch1_cout * adp_ch1_vout) / (500e-6 * 0.6);
-adp_ch1_ccomp = 2 / (pi * adp_ch1_rcomp * (adp_ch1_freq / 12));
-adp_ch1_cc2 = adp_ch1_ccomp / 15;
+adp_ch1_fcross = adp_ch1_freq / 12;
+adp_ch1_rcomp = (0.97 * adp_ch1_acs * adp_ch1_l_mos_rds_min * 2 * pi * adp_ch1_fcross * adp_ch1_cout * adp_ch1_vout) / (500e-6 * 0.6);
+adp_ch1_ccomp = 2 / (pi * adp_ch1_rcomp * adp_ch1_fcross);
+adp_ch1_cc2 = adp_ch1_ccomp / 10;
 adp_ch1_vcsmin = 0.75 - 0.5 * adp_ch1_ind_ipp * adp_ch1_l_mos_rds_min * adp_ch1_acs;
 adp_ch1_vcsmax = 0.75 + (adp_ch1_max_cur - 0.5 * adp_ch1_ind_ipp) * adp_ch1_l_mos_rds_max * adp_ch1_acs;
 
