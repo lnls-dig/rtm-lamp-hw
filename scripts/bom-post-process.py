@@ -9,7 +9,7 @@ try:
     generic_part_file = sys.argv[2]
     xlsx_out = sys.argv[3]
 except:
-    print("Usage: " + argv[0] + " spreadsheet_in part_association.json spreadsheet_out")
+    print("Usage: " + sys.argv[0] + " spreadsheet_in part_association.json spreadsheet_out")
     exit(1)
 
 wb = load_workbook(xlsx_in)
