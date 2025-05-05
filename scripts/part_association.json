@@ -165,7 +165,7 @@
         "notes": ""
     },
     "R0402_20K5_1%_0.0625W_100PPM": {
-        "partnumber": "AC0603FR-0720K5L",
+        "partnumber": "AC0402FR-0720K5L",
         "manufacturer": "YAGEO",
         "notes": ""
     },
@@ -225,7 +225,7 @@
         "notes": ""
     },
     "R0805_3R3_1%_0.125W_200PPM": {
-        "partnumber": "RC0402FR-073R3L",
+        "partnumber": "RC0805FR-073R3L",
         "manufacturer": "YAGEO",
         "notes": ""
     },
